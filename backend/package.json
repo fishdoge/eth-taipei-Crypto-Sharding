@@ -1,0 +1,22 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.6",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
+    "@types/mocha": "^10.0.6",
+    "hardhat": "^2.22.1"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.8.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-verify": "^2.0.5",
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "hardhat-gas-reporter": "^2.0.2"
+  }
+}
